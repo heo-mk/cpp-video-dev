@@ -1,0 +1,71 @@
+# Prerequisites / User specified exclusions
+.agent/
+.agents/
+docs/
+
+# Compiled Object files & Binaries (C/C++)
+*.slo
+*.lo
+*.o
+*.obj
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug / Profiling / Symbols
+*.dSYM/
+*.su
+*.idb
+*.pdb
+*.ilk
+*.exp
+
+# Build directories (CMake / Visual Studio / etc.)
+[Bb]uild/
+[Bb]in/
+[Oo]bj/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.ninja
+.ninja_*
+
+# Visual Studio / VS Code / JetBrains IDEs
+.vs/
+.vscode/
+.idea/
+*.sln.docstates
+*.suo
+*.user
+*.userosscache
+*.sln.resources
+
+# Operating System files
+Thumbs.db
+ehthumbs.db
+desktop.ini
+.DS_Store
+
+# Temporary & Log files
+*.log
+*.tmp
+*.temp
