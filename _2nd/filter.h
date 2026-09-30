@@ -28,7 +28,7 @@ public:
 
         for (size_t i = 0; i < total_pixels; ++i) {
             // TODO 1: 포인터(ptr)를 이용해 각 픽셀 값을 반전(255 - 현재값)시키세요.
-            // ptr[i] = ...
+            ptr[i] = 255 - ptr[i];
         }
     }
 };
