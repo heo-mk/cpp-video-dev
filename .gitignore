@@ -1,7 +1,6 @@
 # Prerequisites / User specified exclusions
 .agent/
 .agents/
-docs/
 
 # Compiled Object files & Binaries (C/C++)
 *.slo
